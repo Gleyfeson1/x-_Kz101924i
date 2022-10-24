@@ -25,7 +25,7 @@ const UIBasicBasicTypography = React.lazy(() =>
   import("./Demo/UIElements/Basic/Typography")
 );
 const FormsElements = React.lazy(() => import("./Demo/Forms/FormsElements"));
-const BootstrapTable = React.lazy(() => import("./Demo/Tables/BootstrapTable"));
+const BootstrapTable = React.lazy(() => import("./Demo/Tables"));
 const Nvd3Chart = React.lazy(() => import("./Demo/Charts/Nvd3Chart/index"));
 const GoogleMap = React.lazy(() => import("./Demo/Maps/GoogleMap/index"));
 const OtherSamplePage = React.lazy(() => import("./Demo/Other/SamplePage"));
@@ -82,9 +82,9 @@ export const routes = [
     component: FormsElements,
   },
   {
-    path: "x-_Kz101924i/#/tables/bootstrap",
+    path: "/tables",
     exact: true,
-    name: "Bootstrap Table",
+    name: "TABELAS",
     component: BootstrapTable,
   },
   {
