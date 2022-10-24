@@ -1,6 +1,6 @@
 export default {
   defaultPath: "/home",
-  basename: "https://gleyfeson1.github.io/", // only at build time to set, like /datta-able
+  basename: "https://gleyfeson1.github.io", // only at build time to set, like /datta-able
   layout: "vertical", // vertical, horizontal (not available in lite version)
   preLayout: null, // (not available in lite version)
   collapseMenu: false, // mini-menu
