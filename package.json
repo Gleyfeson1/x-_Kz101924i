@@ -2,8 +2,9 @@
   "name": "datta-able-rv18.0.4",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Gleyfeson1.github.io/x-_Kz101924i",
+  "homepage": "https://gleyfeson1.github.io/x-_Kz101924i/",
   "dependencies": {
+    "@babel/helper-define-map": "^7.18.6",
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
     "google-maps-react": "^2.0.2",
